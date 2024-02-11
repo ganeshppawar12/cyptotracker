@@ -42,8 +42,7 @@ function App() {
   useEffect(() => {
     fetchData();
   }, []);
-  console.log(coins);
-  console.log(search);
+
 
 
 
