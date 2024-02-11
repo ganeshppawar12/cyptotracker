@@ -40,7 +40,7 @@ th{
 td{
     padding: 10px;
     border: none;
-    background: #ffffff;
+    /* background: #ffffff; */
 
 }
 
@@ -48,12 +48,16 @@ td{
     /* border-bottom: 3px solid #ddd; */
     background: #f0efef;
     cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Nunito Sans', sans-serif;
+
 
 
 }
 .maintr:hover{
-    background: #512828 !important;
-    border-bottom: 3px solid #ddd;
+    background: #ffffff;
+    /* border-bottom: 3px solid #ddd; */
+  
 }
 .coinsImages{
  display: flex;
@@ -127,7 +131,7 @@ td{
     td{
         font-size: 8px;
         text-align: center;
-        padding: 5px;
+        padding: 2px;
         color: #000;
 
     }
@@ -144,6 +148,7 @@ td{
     }
     .coinsImages p{
         font-size: 10px;
+        gap: 1px;
     }
     .shortname{
         font-size: 8px;
