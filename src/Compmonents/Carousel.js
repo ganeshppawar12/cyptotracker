@@ -16,7 +16,7 @@ const Carousel = ({setCurrency,currency,symbol}) => {
 
    useEffect(()=>{
     fetchApi()
-   },[])
+   },[currency])
 
 //    console.log(trending)
 

@@ -44,7 +44,8 @@ const CoinsListSection = ({coins,handleSearch,page,setPage,load,currency,symbol}
                     <div className="priceChangein24H">
                     {item.price_change_percentage_24h < 0 ? <ArrowDropDownRoundedIcon style={{color:'red'}}></ArrowDropDownRoundedIcon> : <ArrowDropUpRoundedIcon style={{color:"green"}}></ArrowDropUpRoundedIcon>}
 
-                        <p>{item.price_change_percentage_24h < 0 ?item.price_change_percentage_24h : item.price_change_percentage_24h} %</p>
+                        {/* <p>{item.price_change_percentage_24h < 0 ?item.price_change_percentage_24h : item.price_change_percentage_24h} %</p> */}
+                        {item.price_change_percentage_24h < 0 ? (<p style={{color:'red'}}>{item.price_change_percentage_24h}% </p>):(<p style={{color:'green'}}>{item.price_change_percentage_24h}% </p>)}
                     </div>
                     </td>
 
