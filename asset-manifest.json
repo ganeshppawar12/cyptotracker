@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ganeshppawar12/static/css/main.d968fa21.css",
-    "main.js": "/ganeshppawar12/static/js/main.b3a684d1.js",
+    "main.css": "/ganeshppawar12/static/css/main.40953569.css",
+    "main.js": "/ganeshppawar12/static/js/main.f34235f0.js",
     "static/js/592.e7c69ffd.chunk.js": "/ganeshppawar12/static/js/592.e7c69ffd.chunk.js",
     "static/media/crypto-currency-Img.jpg": "/ganeshppawar12/static/media/crypto-currency-Img.32d61baf75d1ad258c70.jpg",
     "index.html": "/ganeshppawar12/index.html",
-    "main.d968fa21.css.map": "/ganeshppawar12/static/css/main.d968fa21.css.map",
-    "main.b3a684d1.js.map": "/ganeshppawar12/static/js/main.b3a684d1.js.map",
+    "main.40953569.css.map": "/ganeshppawar12/static/css/main.40953569.css.map",
+    "main.f34235f0.js.map": "/ganeshppawar12/static/js/main.f34235f0.js.map",
     "592.e7c69ffd.chunk.js.map": "/ganeshppawar12/static/js/592.e7c69ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d968fa21.css",
-    "static/js/main.b3a684d1.js"
+    "static/css/main.40953569.css",
+    "static/js/main.f34235f0.js"
   ]
 }
