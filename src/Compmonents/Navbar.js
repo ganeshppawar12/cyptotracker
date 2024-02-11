@@ -28,7 +28,7 @@ const Navbar = ({setSearch, setCurrency,currency})=>{
             <div className="navInput">
               <input type="text" placeholder="Search..." onChange={(e)=> setSearch(e.target.value)}></input>
             </div>
-            <div className={toggel ? "NavbarOption2" : "NavbarOption"}>
+            <div  className={toggel ? "NavbarOption2" : "NavbarOption"}>
            
                 <ul>
 

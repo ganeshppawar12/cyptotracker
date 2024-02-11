@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,600&display=swap');
-
+@keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  @keyframes slide-out {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
 
 .NavbarComtainer{
     display: flex;
@@ -10,6 +25,7 @@
     position: sticky;
     top: 0;
     backdrop-filter: blur(10px);
+    /* background-color: #334498; */
     
 }
 .NavbarComtainer:hover{
@@ -32,6 +48,7 @@
     display: flex;
     align-items: center;
     /* gap: 40px; */
+    animation:  slide-out  1000ms;
 }
 .navInput input{
     padding: 5px 10px;
@@ -48,8 +65,8 @@
     justify-content: space-between;
     gap: 40px;
     font-family: 'Nunito Sans', sans-serif;
-    
-    color: #fff;
+    font-weight: 500;
+    color: #F4BB58;
 }
 .NavbarOption ul li{
     font-size: 16px;
@@ -70,6 +87,7 @@
 @media screen and (max-width:600px){
     .NavbarOption ul{
         display: none;
+        /* animation: slide-out  1000ms; */
     }
     .hamburger{
         position: fixed;
@@ -77,6 +95,7 @@
         z-index: 1;
         right: 20px;
     }
+
     .NavbarOption2 {
         position: fixed;
         left: 0;
@@ -84,6 +103,7 @@
         height: 90vh;
         width: 100vw;
         background:#334498;
+        animation: slide-in 1000ms;
    
 
     }

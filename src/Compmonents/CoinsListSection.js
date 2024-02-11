@@ -58,7 +58,7 @@ const CoinsListSection = ({coins,handleSearch,page,setPage,load,currency,symbol}
 
         <Pagination 
           style={{
-            padding: 20,
+            padding: 10,
             width: "100%",
             display: "flex",
             justifyContent: "center",

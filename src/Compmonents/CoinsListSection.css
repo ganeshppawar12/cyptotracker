@@ -110,23 +110,43 @@ td{
     table{
         width: 100%;
         border-collapse: collapse;
-        overflow-y: hidden;
+        overflow: hidden;
         
     }
     th{
-        font-size: 12px;
-        height: 40px;
-    }
-    /* .maintr{
-        
-    } */
-    td{
         font-size: 10px;
+        height: 40px;
+        font-weight: 700;
+    }
+    tr{
+        overflow-y:hidden;
+    }
+    tr:hover{
+        background-color: red;
+    }
+    td{
+        font-size: 8px;
         text-align: center;
+        padding: 5px;
+        color: #000;
 
     }
-    .volume{
+    /* .volume{
         display: none;
+    } */
+
+    .coinsImages{
+        gap: 5px;
+        flex-direction: column;
+    }
+    .coinsImages img{
+        width: 20px;
+    }
+    .coinsImages p{
+        font-size: 10px;
+    }
+    .shortname{
+        font-size: 8px;
     }
 }
 
