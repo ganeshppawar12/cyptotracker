@@ -1,0 +1,40 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
+.MainHeroSectionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.carouselcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    padding: 15px 0;
+   width: 100%;
+   gap: 20px;
+   margin-left: 20px;
+}
+.carouselcontainer p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+      color: #fbba49;
+      opacity: 0.5;
+
+}
+.trandingBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.trandingBox p{
+    font-size: 14px;
+}
+.Carouselmg{
+    width: 100px;
+    opacity: 0.3;
+}

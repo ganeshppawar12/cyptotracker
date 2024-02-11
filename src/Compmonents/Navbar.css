@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,600&display=swap');
+
+
+.NavbarComtainer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5px 4vw;
+    transition: all 0.5s ease;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    
+}
+.NavbarComtainer:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.NavBarLogo p{
+    color: #FADA5E;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.NavBarLogo p:hover{
+    color: #F4BB58;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+.NavbarOption{
+    display: flex;
+    align-items: center;
+    /* gap: 40px; */
+}
+.navInput input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #151515;
+    color: #6b6b6b;
+}
+.NavbarOption ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+    color: #fff;
+}
+.NavbarOption ul li{
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 10px;
+
+}
+/* .NavbarOption ul li:hover{
+    font-size: 16px;
+    background: #2f2f2f;
+    cursor: pointer;
+    border-radius: 15px;
+    text-align: center;
+} */
+.hamburger{
+    display: none;
+}
+@media screen and (max-width:600px){
+    .NavbarOption ul{
+        display: none;
+    }
+    .hamburger{
+        position: fixed;
+        display: block;
+        z-index: 1;
+        right: 20px;
+    }
+    .NavbarOption2 {
+        position: fixed;
+        left: 0;
+        top: 0px;
+        height: 90vh;
+        width: 100vw;
+        background:#334498;
+   
+
+    }
+    .NavbarOption2 ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+    }
+}

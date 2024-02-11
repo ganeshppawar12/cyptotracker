@@ -1,0 +1,100 @@
+.HomeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.HomeLiftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    color: #fff;
+}
+.HomeHeading h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.HomePara p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.HomeBtn button{
+    background: #0039a6;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.HomeBtn button:hover{
+    background: #003290;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.HomeRightSide{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.HomeRightSide img{
+    width: 50vw;
+}
+
+@media screen and (max-width:1000px) {
+    .MainHeroSectionContainer{
+        width: 100%;
+        overflow: hidden;
+    }
+    .HomeContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+
+    }
+    .HomeLiftSide{
+        align-items: start;
+        /* width: 50%; */
+        justify-content: flex-start;
+    }
+    .HomeLiftSide h1{
+        font-size: 90px;
+    }
+    .HomeLiftSide p{
+        font-size: 22px;
+    }
+    .HomeRightSide{
+        justify-content: center;
+    }
+    .HomeRightSide img{
+        width: 70vw;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .MainHeroSectionContainer{
+        width: 100%;
+        overflow: hidden;
+    }
+    .HomeLiftSide h1{
+        font-size: 45px;
+    }
+    .HomeLiftSide p{
+        font-size: 18px;
+    }
+    .HomeRightSide{
+        width: 90vw;
+    }
+
+    .coinstableSection{
+        overflow-y:hidden ;
+    }
+   
+}
