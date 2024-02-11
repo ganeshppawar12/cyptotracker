@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cyptotracker/static/css/main.00f95c26.css",
-    "main.js": "/cyptotracker/static/js/main.f41ad794.js",
+    "main.css": "/cyptotracker/static/css/main.61192c99.css",
+    "main.js": "/cyptotracker/static/js/main.fe92259c.js",
     "static/js/592.e7c69ffd.chunk.js": "/cyptotracker/static/js/592.e7c69ffd.chunk.js",
     "static/media/crypto-currency-Img.jpg": "/cyptotracker/static/media/crypto-currency-Img.32d61baf75d1ad258c70.jpg",
     "index.html": "/cyptotracker/index.html",
-    "main.00f95c26.css.map": "/cyptotracker/static/css/main.00f95c26.css.map",
-    "main.f41ad794.js.map": "/cyptotracker/static/js/main.f41ad794.js.map",
+    "main.61192c99.css.map": "/cyptotracker/static/css/main.61192c99.css.map",
+    "main.fe92259c.js.map": "/cyptotracker/static/js/main.fe92259c.js.map",
     "592.e7c69ffd.chunk.js.map": "/cyptotracker/static/js/592.e7c69ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00f95c26.css",
-    "static/js/main.f41ad794.js"
+    "static/css/main.61192c99.css",
+    "static/js/main.fe92259c.js"
   ]
 }
