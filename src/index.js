@@ -9,9 +9,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
-   <cryptoContext>
+   
         <App />
-        </cryptoContext>
+       
     </HashRouter>
   </React.StrictMode>
 );
