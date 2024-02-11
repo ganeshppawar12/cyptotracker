@@ -59,7 +59,7 @@ const Navbar = ({setSearch, setCurrency,currency,setToggel,toggel})=>{
               </ul>
             </div>
             <div className="hamburger" onClick={()=>setToggel(!toggel)}>
-              {toggel ? <CloseIcon></CloseIcon> : <MenuIcon></MenuIcon>}
+              {toggel ? <CloseIcon style={{color:'#FADA5E'}}></CloseIcon> : <MenuIcon style={{color:'#FADA5E'}}></MenuIcon>}
             </div>
         </div>
         </>

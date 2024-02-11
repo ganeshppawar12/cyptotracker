@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,600&display=swap');
 @keyframes slide-in {
     from {
-      transform: translateY(-100%);
+      transform: translateX(100%);
     }
     to {
-      transform: translateY(0%);
+      transform: translateX(0%);
     }
+   
   }
   @keyframes slide-out {
     from {
@@ -83,6 +84,7 @@
 } */
 .hamburger{
     display: none;
+    transition: all 0.5s ease;
 }
 @media screen and (max-width:600px){
     .NavbarOption ul{
@@ -104,18 +106,23 @@
         width: 100vw;
         background:#334498;
         /* opacity: 1; */
-      
+      transition: all 0.5s ease;
         animation: slide-in 1000ms;
    
    
 
+    }
+    .NavbarOption2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .NavbarOption2 ul{
         list-style: none;
         display: flex;
         align-items: center;
         flex-direction: column;
-        gap: 50px;
-        margin-top: 50px;
+        gap: 40px;
+        /* margin-top: 50px; */
     }
 }

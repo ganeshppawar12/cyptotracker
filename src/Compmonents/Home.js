@@ -13,7 +13,7 @@ const Home = () => {
         A cryptocurrency is an encrypted data string that denotes a unit of currency. It is monitored and organized by a peer-to-peer network called a blockchain, which also serves as a secure ledger of transactions, e.g., buying, selling, and transferring. Unlike physical money, cryptocurrencies are decentralized, which means they are not issued by governments or other financial institutions. 
         </p>
         </div> <div className="HomeBtn">
-       <button><p>Learn More</p></button>
+       <button>Learn More</button>
         </div>
       </div>
       <div className="HomeRightSide">
