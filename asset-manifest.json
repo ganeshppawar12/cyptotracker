@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cyptotracker/static/css/main.d39803fa.css",
+    "main.css": "/cyptotracker/static/css/main.9f46d99d.css",
     "main.js": "/cyptotracker/static/js/main.b33cdde8.js",
     "static/js/592.e7c69ffd.chunk.js": "/cyptotracker/static/js/592.e7c69ffd.chunk.js",
     "static/media/crypto-currency-Img.jpg": "/cyptotracker/static/media/crypto-currency-Img.32d61baf75d1ad258c70.jpg",
     "index.html": "/cyptotracker/index.html",
-    "main.d39803fa.css.map": "/cyptotracker/static/css/main.d39803fa.css.map",
+    "main.9f46d99d.css.map": "/cyptotracker/static/css/main.9f46d99d.css.map",
     "main.b33cdde8.js.map": "/cyptotracker/static/js/main.b33cdde8.js.map",
     "592.e7c69ffd.chunk.js.map": "/cyptotracker/static/js/592.e7c69ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d39803fa.css",
+    "static/css/main.9f46d99d.css",
     "static/js/main.b33cdde8.js"
   ]
 }
