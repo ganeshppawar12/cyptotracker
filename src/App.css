@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* body {margin: 0; height: 100%; overflow: hidden} */
 .App{
   background:#000f59;
+}
+.App2{
+  background:#000f59;
+  height: 100vh;
+  overflow: hidden;
 }

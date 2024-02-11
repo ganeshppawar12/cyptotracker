@@ -12,9 +12,8 @@ import CloseIcon from '@mui/icons-material/Close';
 
 
 
-const Navbar = ({setSearch, setCurrency,currency})=>{
+const Navbar = ({setSearch, setCurrency,currency,setToggel,toggel})=>{
     const history = useNavigate();
-  const [toggel, setToggel] = useState(false)
    
   // const currency = CryptoState()
   // console.log(CryptoState)

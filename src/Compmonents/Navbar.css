@@ -97,13 +97,16 @@
     }
 
     .NavbarOption2 {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0px;
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
         background:#334498;
+        /* opacity: 1; */
+      
         animation: slide-in 1000ms;
+   
    
 
     }

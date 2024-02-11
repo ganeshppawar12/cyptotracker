@@ -15,6 +15,8 @@ function App() {
   const [currency, setCurrency] = useState("INR");
   const [symbol, setSymbol] = useState("₹");
   const [load, setLoad] = useState(false)
+  const [toggel, setToggel] = useState(false)
+
 
   useEffect(() => {
     if (currency === "INR") setSymbol("₹");
@@ -46,8 +48,8 @@ function App() {
 
 
   return (
-    <div className="App">
-    <Navbar setSearch={setSearch} setCurrency={setCurrency} currency={currency}></Navbar>
+    <div className={toggel ? "App2" :"App"}>
+    <Navbar setSearch={setSearch} setCurrency={setCurrency} currency={currency} toggel={toggel} setToggel={setToggel}></Navbar>
     <Routes>
       <Route path='/' element={<MainHeroSection coins={coins} handleSearch={handleSearch} page={page} setPage={setPage} setCurrency={setCurrency} currency={currency} load={load} symbol={symbol}></MainHeroSection>}></Route>
       {/* <Route path='/:id' element={<SingleCoin></SingleCoin>} ></Route> */}
